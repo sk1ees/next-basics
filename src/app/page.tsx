@@ -1,7 +1,15 @@
+import FeaturedCourses from "@/components/FeaturedCourses";
+import HeroSection from "@/components/HeroSection";
+import WhyChooseUs from "@/components/WhyChooseUs";
+
 export default function Home() {
   return (
     <>
-      <h1 className="text-white text-3xl text-center">Welcome to Next.js</h1>
+      <main className="min-h-screen bg-black/[0.9] antialiased bg-grid-white/[0.9] ">
+        <HeroSection />
+        <FeaturedCourses />
+        <WhyChooseUs />
+      </main>
     </>
   );
 }
