@@ -4,11 +4,6 @@ import { Meteors } from "@/components/ui/meteors";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { cn } from "@/utils/cn";
-import {
-  IconBrandGithub,
-  IconBrandGoogle,
-  IconBrandOnlyfans,
-} from "@tabler/icons-react";
 
 const LabelInputContainer = ({
   children,

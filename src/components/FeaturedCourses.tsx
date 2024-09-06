@@ -15,7 +15,7 @@ interface Course {
   isFeatured: boolean;
 }
 
-let featuredData = courseData.courses.filter(
+const featuredData = courseData.courses.filter(
   (course: Course) => course.isFeatured
 );
 
