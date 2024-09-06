@@ -36,9 +36,9 @@ const BottomGradient = () => {
 export default function ContactPage() {
   return (
     <>
-      <div className="min-h-auto md:h-[30rem]  w-full rounded-md flex flex-col items-center justify-center relative  mx-auto py-10 md:py-0 dark:bg-black/90">
+      <div className="h-auto   w-full rounded-md flex flex-col items-center justify-center relative  mx-auto py-10 md:py-0 dark:bg-black/90">
         <Meteors number={10} />
-        <div className="mt-[60vh]">
+        <div className="mt-[20vh]">
           <div className="p-4 relative z-10 w-full text-center">
             <h1 className="mt-20 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
               Contact Page

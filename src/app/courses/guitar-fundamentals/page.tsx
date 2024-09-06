@@ -9,7 +9,7 @@ const guitarFundamentals = () => {
             Guitar Fundamentals
           </h1>
           <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          page will be back soon.
           </p>
         </div>
       </div>
